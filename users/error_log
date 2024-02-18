@@ -1,0 +1,7 @@
+[20-Mar-2022 10:15:31 America/New_York] PHP Warning:  Undefined array key "user_id" in /home/carscedw/test.julfikerali.com/richard/dashboard_includes/header.php on line 8
+[20-Mar-2022 10:15:31 America/New_York] PHP Fatal error:  Uncaught TypeError: mysqli_fetch_assoc(): Argument #1 ($result) must be of type mysqli_result, bool given in /home/carscedw/test.julfikerali.com/richard/dashboard_includes/header.php:11
+Stack trace:
+#0 /home/carscedw/test.julfikerali.com/richard/dashboard_includes/header.php(11): mysqli_fetch_assoc()
+#1 /home/carscedw/test.julfikerali.com/richard/users/view.php(5): require('/home/carscedw/...')
+#2 {main}
+  thrown in /home/carscedw/test.julfikerali.com/richard/dashboard_includes/header.php on line 11
